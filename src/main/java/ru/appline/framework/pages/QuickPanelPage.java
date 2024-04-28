@@ -51,7 +51,8 @@ public class QuickPanelPage extends BasePage {
      * Функция клика на любое подменю
      *
      * @param nameSubMenu - наименование подменю
-     * @return BusinessTripPage - т.е. переходим на страницу {@link BusinessTripPage}
+     * @return BusinessTripPage - т.е. переходим на страницу
+     *         {@link BusinessTripPage}
      */
     public BusinessTripPage selectSubMenu(String nameSubMenu) {
         for (WebElement menuItem : listQuickPanelSubMenu) {

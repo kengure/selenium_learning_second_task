@@ -163,7 +163,7 @@ public class BusinessTripPage extends BasePage {
      * Функция заполнения полей при создании командировки
      *
      * @param nameField - название поля
-     * @param value - вводимое значение
+     * @param value     - вводимое значение
      * @return BusinessTripPage - т.е. остаемся на этой странице
      */
     public BusinessTripPage fillBusinessTripField(String nameField, String value) {
